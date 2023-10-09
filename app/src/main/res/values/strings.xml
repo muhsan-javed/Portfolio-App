@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Portfolio App</string>
+    <string name="imageDes">imageDes</string>
+    <string name="name_tv">Muhsan Javed</string>
+    <string name="description_tv"><![CDATA[Software Engineer \n Android Developer Kotlin & Java]]></string>
+    <string name="skills">Skills</string>
+    <string name="education">Education</string>
+    <string name="work">Work</string>
+    <string name="achievements">Achievements</string>
 </resources>
