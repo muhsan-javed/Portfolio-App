@@ -15,14 +15,14 @@ class MainActivity : AppCompatActivity() {
         // val and var
         val btnSkills = findViewById<MaterialButton>(R.id.btnSkills)
         btnSkills.setOnClickListener {
-            intent = Intent(this,SkillsActivity::class.java)
+            intent = Intent(this, SkillsActivity::class.java)
             startActivity(intent)
             //Toast.makeText(this@MainActivity,"Hi ClickListener", Toast.LENGTH_LONG).show()
         }
 
         btnSkills.setOnLongClickListener(View.OnLongClickListener {
 
-            Toast.makeText(this@MainActivity,"SkillsActivity", Toast.LENGTH_LONG).show()
+            Toast.makeText(this@MainActivity, "SkillsActivity", Toast.LENGTH_LONG).show()
 
             true
         })
